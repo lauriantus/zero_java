@@ -25,6 +25,7 @@ public class task7_NumberRow {
                 if (i != N - 1)
                     System.out.print(", ");
                 }
+                break;
             case 2:
                 System.out.println("You chosen part 2: form 1 to N with while");
                 i = 0;
@@ -34,6 +35,7 @@ public class task7_NumberRow {
                         System.out.print(", ");
                     i++;
                 }
+                break;
             case 3:
                 System.out.println("You chosen part 3: from N to 1 with for");
                 for (i = 0; i < N; i++){
@@ -41,6 +43,7 @@ public class task7_NumberRow {
                     if (i != N - 1)
                         System.out.print(", ");
                 }
+                break;
             case 4:
                 System.out.println("You chosen part 4: from N to 1 with while");
                 i = 0;
@@ -50,6 +53,7 @@ public class task7_NumberRow {
                         System.out.print(", ");
                     i++;
                 }
+                break;
             case 5:
                 System.out.println("You chosen part 5: from 2 to N with for");
                 for (i = 1; i < N; i++) {
@@ -60,6 +64,7 @@ public class task7_NumberRow {
                         }
                     }
                  }
+                break;
             case 6:
                 System.out.println("You chosen part 6: from 2 to N with while");
                 i = 1;
@@ -72,6 +77,7 @@ public class task7_NumberRow {
                     }
                     i++;
                 }
+                break;
             case 7:
                 System.out.println("You chosen part 7: from N to 2 with for");
                 for (i = 1; i < N; i++) {
@@ -82,6 +88,7 @@ public class task7_NumberRow {
                         }
                     }
                 }
+                break;
             case 8:
                 System.out.println("You chosen part 8: from N to 2 with while");
                 i = 1;
@@ -94,6 +101,7 @@ public class task7_NumberRow {
                     }
                     i++;
                 }
+                break;
         }
     }
 
